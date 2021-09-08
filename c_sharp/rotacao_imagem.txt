@@ -1,0 +1,27 @@
+rotateImage
+rotacionar imagem 90° sentido horário:
+
+
+
+int[][] rotateImage(int[][] a) {
+    var n = a.Length;
+    
+    //Transpor
+    for(int i = 0; i < n; i++){
+        for(int j = i; j < n; j++){
+            var troca = a[j][i];
+            a[j][i] = a[i][j];
+            a[i][j] = troca;
+        }
+    }
+    
+    //Linha reversa
+    for(int i = 0; i < n; i++){
+        for(int j1 = 0, j2 = n - 1; j1 < j2; j1++, j2--){
+            var troca = a[i][j1];
+            a[i][j1] = a[i][j2];
+            a[i][j2] = troca;
+        }
+    }
+    return a;
+}

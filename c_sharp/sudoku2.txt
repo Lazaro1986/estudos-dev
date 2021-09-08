@@ -1,0 +1,23 @@
+sudoku 2
+
+
+bool sudoku2(char[][] grid) {
+    if(grid.Any(linha => isInvalid(linha)) || //sobre as linhas
+        grid.Select((_, i) => i).Any(coluna => isInvalid(grid.Select(_ => _[coluna])))) //colunas abaixo
+        
+    return false;
+    
+    //com subgrid
+    for(int linha = 0; linha < grid.Length; linha += 3){
+        for(int coluna = 0; coluna < grid.Length; coluna += 3){
+            if(isInvalid(grid.Skip(linha).Take(3).SelectMany(_ => _.Skip(coluna).Take(3))))
+            return false;
+        }
+    }
+    return true;
+}
+
+bool isInvalid(IEnumerable<char> num){
+    var qtd = new int[9];
+    return num.Any(n => n != '.' && qtd[n - '1']++ > 0);
+}
