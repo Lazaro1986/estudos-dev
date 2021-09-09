@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+
+		<h1>Formulário</h1>
+
+		<form>
+
+			<input type="text" class="form-control" placeholder="insira um texto aqui.">
+			<br><br>
+			<label>Digite o nome do usuário</label>
+			<input type="text" class="form-control" placeholder="Nome do usuário">
+			<label>Digite a senha</label>
+			<input type="password" name="senha" class="form-control" placeholder="Senha">
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			<input type="file">
+			<input type="submit" name="enviar" value="Enviar" class="btn btn-secondary">
+			<br><br>
+
+		<form>
+			<div class="form-group">	<!-- formulario agrupado -->
+				<label>Digite o nome do usuário</label>
+				<input type="text" class="form-control" placeholder="Nome do usuário">	
+			</div>
+			<div class="form-group">
+				<label>Digite a senha</label>
+				<input type="password" name="senha" class="form-control" placeholder="Senha">	
+			</div>
+			<div class="form-group">
+				<select class="form-control">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			</div>
+			<div class="form-group">
+				<input type="file" class="form-control" name="">
+			</div>
+			<div class="form-group">
+				<input type="submit" name="enviar" value="Enviar" class="btn btn-secondary">
+			</div>
+
+			<br><br>
+
+			<div class="form-group">	<!-- formulario agrupado -->
+				<label>Digite o nome do usuário</label>
+				<input type="text" class="form-control form-control-lg" placeholder="Nome do usuário">	
+			</div>
+			<div class="form-group">
+				<label>Digite a senha</label>
+				<input type="password" name="senha" class="form-control form-control-sm" placeholder="Senha">	
+			</div>
+
+			<br><br>
+
+
+			<div class="row">
+				
+				<div class="col">
+					
+					<div class="form-group">	<!-- formulario agrupado -->
+						<label>Digite o nome do usuário</label>
+						<input type="text" class="form-control" placeholder="Nome do usuário">	
+					</div>
+
+				</div>
+				
+			</div>
+
+			<div class="form-group">
+				<label>Digite a senha</label>
+				<input type="password" name="senha" class="form-control" placeholder="Senha">	
+			</div>
+
+		</form>
+
+		<form>
+			<div class="row">
+				<div class="col">
+					<div class="form-group">
+						<label>Digite o nome do usuário</label>
+						<input type="text" class="form-control form-control-lg" placeholder="Insira um texto aqui">
+					</div>
+				</div>
+				<div class="col">
+					<div class="form-group">
+						<label>Digite a senha</label>
+						<input type="password" name="Senha" class="form-control form-control-lg">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="submit" name="enviar" value="Enviar" class="btn btn-secondary btn-block btn-lg">
+			</div>
+			<div class="form-group">
+				<input type="submit" name="enviar" value="Enviar" class="btn btn-secondary">
+			</div>
+
+			<div class="form-group">
+				<input type="range">
+				<input type="range" class="form-control-range">
+				<input type="checkbox" class="form-check-input" disabled>
+				<label>Clique aqui</label>
+				<input type="checkbox" class="form-check-input" checked>
+				<label>Clique aqui</label>
+				<input type="radio">
+			</div>
+		</form>
+
+		<div class="container">
+			<h1>Agrupando elementos de formulário</h1>
+			<form>
+				<div class="btn-group">
+					<a href="#" class="btn btn-primary">Link 1</a>
+					<a href="#" class="btn btn-primary active">Link 2</a>
+					<a href="#" class="btn btn-primary">Link 3</a>
+				</div>
+				<br><br>
+
+				<input type="text" class="form-control" placeholder="Digite seu E-mail">
+				<span>@lazarojosue.com</span>
+				<br><br>
+
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Digite seu E-mail">
+					<span class="input-group-text">@lazarojosue.com</span>
+				</div>
+				<br><br>
+
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Digite seu E-mail">
+					<div class="input-group-append">
+						<span class="input-group-text">@lazarojosue.com</span>
+					</div>
+				</div>
+				<br><br>
+
+				<div class="input-group">
+					<div class="input-group-preppend">
+						<span class="input-group-text">R$</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Valor">
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+
+
+	<footer>
+		<script src="js/jquery.min"></script>
+		<script src="js/bootstrap.bundle.min"></script>
+	</footer>
+
+</body>
+</html>

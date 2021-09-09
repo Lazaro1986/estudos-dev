@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COMPONENTES DO BOOTSTRAP</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Componentes</h1>
+		<div class="alert alert-success">
+			O programa foi executado com sucesso.
+		</div>
+		<div class="alert alert-danger">
+			Ocorreu um erro. <a href="#">Clique aqui para saber mais.</a>
+		</div>
+		<div class="alert alert-warning">
+			Possível problema detectado. <a href="#" class="alert-link">Clique aqui para saber mais.</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<button>Clique aqui</button>
+		<button class="btn btn-primary">Clique aqui</button>
+		<button class="btn btn-primary">primary</button>
+		<button class="btn btn-secondary">secondary</button>
+		<button class="btn btn-success">success</button>
+		<button class="btn btn-danger">danger</button>
+		<button class="btn btn-warning">warning</button>
+		<button class="btn btn-info">info</button>
+		<button class="btn btn-light">light</button>
+		<button class="btn btn-dark">dark</button>
+		<br>
+		<br>
+		<!-- a class btn pode ser atribuída tanto para button quanto para link ou input-->
+		<button class="btn btn-warning">Clique aqui</button>
+		<a href="#" class="btn btn-danger">Clique aqui</a>
+		<input type="submit" class="btn btn-success" value="Clique aqui">
+		<input type="button" class="btn btn-success" value="Clique aqui">
+		<input type="submit" class="btn btn-success" name="Clique aqui"> <!-- utilizar value no lugar de name caso queira utilizar como botão. input é um elemento de formulário para enviar algum valor -->
+		<br>
+		<br>
+		<button class="btn btn-outline-primary">primary</button>
+		<button class="btn btn-outline-secondary">secondary</button>
+		<button class="btn btn-outline-success">success</button>
+		<button class="btn btn-outline-danger">danger</button>
+		<button class="btn btn-outline-warning">warning</button>
+		<button class="btn btn-outline-info">info</button>
+		<button class="btn btn-outline-light">light</button>
+		<button class="btn btn-outline-dark">dark</button>
+
+		<br><br>
+
+		<!-- tamanho de botões -->
+		<button class="btn btn-success btn-lg">grande</button>
+		<button class="btn btn-success">normal</button>
+		<button class="btn btn-success btn-sm">pequeno</button>
+
+		<br><br>
+
+		<!-- botão ocupando a linha inteira -->
+		<button class="btn btn-success btn-block">linha inteira</button>
+		<button class="btn btn-success btn-block btn-lg" disabled>grande</button> <!-- disabled deveria desabilitar a mãozinha do cursor do mouse-->
+		<button class="btn btn-success btn-block">normal</button>
+		<button class="btn btn-success btn-block btn-sm">pequeno</button>
+		<button class="btn btn-outline-success btn-block btn-lg">grande</button>
+		
+	</div>
+
+
+	<footer>
+		<script src="js/jquery.min"></script>
+		<script src="js/bootstrap.bundle.min"></script>
+	</footer>
+
+</body>
+</html>

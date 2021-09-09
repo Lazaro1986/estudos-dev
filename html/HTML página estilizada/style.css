@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica, arial;
+	color: black;
+}
+
+.containner{
+	width: 800px;
+	margin: auto;
+}
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 50px 0px 50px 0px;
+
+}
+
+header{
+	background-color: #35b8b0;
+	height: 100px;
+	padding: 30px;
+}
+
+#logo{
+	float: left;
+}
+
+#menu{
+	float: right;
+	margin-top: 35px;
+}
+
+#menu a{
+	padding: 25px;
+	text-decoration: none;
+	color: #111;
+	text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{ /*propriedade para mudar a cor de fundo do botão do menu ao passar o mouse*/
+	background-color: #35b8b0;
+	color: #cef;
+}
+
+#principal{
+	background-image: url(mountain-bike.jpg);
+	background-size: 100%;
+	min-height: 940px;
+	padding: 50px 0px 20px 0px;
+	clear: both;
+
+}
+
+h1{
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #111111;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+p{
+	font-size: 15px;
+	color: #cef;
+	text-shadow: 1px 1px 1px #111111;
+	padding: 26px;
+}
+
+footer{
+	clear: both;
+	background-color: #35b8b0;
+	height: 30px;
+	text-align: center;
+	color: white;
+	padding: 30px;
+}

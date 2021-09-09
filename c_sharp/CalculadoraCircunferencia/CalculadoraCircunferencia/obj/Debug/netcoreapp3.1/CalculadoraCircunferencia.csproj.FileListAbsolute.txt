@@ -1,0 +1,13 @@
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\obj\Debug\netcoreapp3.1\CalculadoraCircunferencia.csprojAssemblyReference.cache
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\obj\Debug\netcoreapp3.1\CalculadoraCircunferencia.csproj.CoreCompileInputs.cache
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\obj\Debug\netcoreapp3.1\CalculadoraCircunferencia.AssemblyInfoInputs.cache
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\obj\Debug\netcoreapp3.1\CalculadoraCircunferencia.AssemblyInfo.cs
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\bin\Debug\netcoreapp3.1\CalculadoraCircunferencia.exe
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\bin\Debug\netcoreapp3.1\CalculadoraCircunferencia.deps.json
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\bin\Debug\netcoreapp3.1\CalculadoraCircunferencia.runtimeconfig.json
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\bin\Debug\netcoreapp3.1\CalculadoraCircunferencia.runtimeconfig.dev.json
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\bin\Debug\netcoreapp3.1\CalculadoraCircunferencia.dll
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\bin\Debug\netcoreapp3.1\CalculadoraCircunferencia.pdb
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\obj\Debug\netcoreapp3.1\CalculadoraCircunferencia.dll
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\obj\Debug\netcoreapp3.1\CalculadoraCircunferencia.pdb
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\CalculadoraCircunferencia\CalculadoraCircunferencia\obj\Debug\netcoreapp3.1\CalculadoraCircunferencia.genruntimeconfig.cache

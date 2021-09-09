@@ -1,0 +1,13 @@
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\bin\Debug\netcoreapp3.1\ControleEstoque.exe
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\bin\Debug\netcoreapp3.1\ControleEstoque.deps.json
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\bin\Debug\netcoreapp3.1\ControleEstoque.runtimeconfig.json
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\bin\Debug\netcoreapp3.1\ControleEstoque.runtimeconfig.dev.json
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\bin\Debug\netcoreapp3.1\ControleEstoque.dll
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\bin\Debug\netcoreapp3.1\ControleEstoque.pdb
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\obj\Debug\netcoreapp3.1\ControleEstoque.csprojAssemblyReference.cache
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\obj\Debug\netcoreapp3.1\ControleEstoque.csproj.CoreCompileInputs.cache
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\obj\Debug\netcoreapp3.1\ControleEstoque.AssemblyInfoInputs.cache
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\obj\Debug\netcoreapp3.1\ControleEstoque.AssemblyInfo.cs
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\obj\Debug\netcoreapp3.1\ControleEstoque.dll
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\obj\Debug\netcoreapp3.1\ControleEstoque.pdb
+C:\Users\Lázaro\Desktop\UDEMY\Csharp_DotNet\Aulas\ControleEstoque\ControleEstoque\obj\Debug\netcoreapp3.1\ControleEstoque.genruntimeconfig.cache
