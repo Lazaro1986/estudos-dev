@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Calculadora
+comment0.text=\r\n\ Classe\ que\ representa\ o\ processamento\ aritm\u00E9tico\r\n\ para\ opera\u00E7\u00F5es\ simples\ -\ Calculadora\ Simples\r\n\ \r\n\ @author\ (L\u00E1zaro\ Josu\u00E9)\r\n\ @version\ (1.0)\r\n
+comment1.params=n1\ n2\ op
+comment1.target=double\ exec(double,\ double,\ java.lang.String)
+comment1.text=\r\n\ M\u00E9todo\ que\ testa\ a\ opera\u00E7\u00E3o\ e\ processa\ o\ c\u00E1lculo\ aritm\u00E9tico\r\n
+numComments=2

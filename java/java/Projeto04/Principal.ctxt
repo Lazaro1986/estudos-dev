@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Principal
+comment0.text=\r\n\ Exerc\u00EDcio\ para\ treinar\ os\ recursos\ vistos\ at\u00E9\ agora\r\n\ -\ Classifica\u00E7\u00E3o,\ organiza\u00E7\u00E3o\ dos\ atributos\ e\ m\u00E9todos\r\n\ -\ e\ tamb\u00E9m\ alguns\ recursos\ da\ linguagem\ (String,\ Arrays,\ etc)\r\n\ \r\n\ @author\ (L\u00E1zaro\ Josu\u00E9)\ \r\n\ @version\ (1.0)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

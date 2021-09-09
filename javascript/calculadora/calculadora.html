@@ -1,0 +1,45 @@
+<script>
+
+var operacao = prompt("Entre com a operação (+,-,*,/)");
+var numero1 = parseInt(prompt("Entre com o primeiro número:"));
+var numero2 = parseInt(prompt("Entre com o segundo número:"));
+var resultado;
+
+switch(operacao){
+	case "+":
+		resultado = numero1 + numero2;
+		break;
+	case "-":
+		resultado = numero1 - numero2;
+		break;
+	case "*":
+		resultado = numero1 * numero2;
+		break;
+	case "/":
+		resultado = numero1 / numero2;
+		break;
+	default:
+		resultado = "Entrada de operação inválida!!";
+}
+alert("O resultado é: " + resultado);
+
+/*
+if (operacao == "+"){
+	resultado = numero1 + numero2;
+}
+else{
+	if (operacao == "-"){
+	resultado = numero1 - numero2;
+	}
+	else{
+		if (operacao == "*"){
+		resultado = numero1 * numero2;
+		}
+		else{
+		resultado = numero1 / numero2;
+		}
+	}
+}
+alert("O resultado é: " + resultado);
+*/
+</script>

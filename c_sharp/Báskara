@@ -1,0 +1,23 @@
+//  FÓRMULA DE BÁSKARA:
+            double a, b, c;
+
+            Console.Write("Valor de a: ");
+            a = double.Parse(Console.ReadLine());
+            Console.Write("Valor de b: ");
+            b = double.Parse(Console.ReadLine());
+            Console.Write("Valor de c: ");
+            c = double.Parse(Console.ReadLine());
+
+            double delta = Math.Pow(b, 2.0) - 4.0 * a * c;
+
+            double x1 = (-b + Math.Sqrt(delta)) / (2.0 * a);
+            double x2 = (-b - Math.Sqrt(delta)) / (2.0 * a);
+
+            Console.WriteLine();
+            Console.WriteLine("Raiz de: " + delta);
+            Console.WriteLine();
+            Console.WriteLine("x1 = " + x1);
+            Console.WriteLine("x2 = " + x2);
+
+
+=======================================================================================
