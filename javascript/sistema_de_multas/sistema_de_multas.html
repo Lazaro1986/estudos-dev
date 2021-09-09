@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <style>
+        body {
+            background-color: rgb(111, 255, 142);
+            color: rgb(0, 0, 0);
+            font: normal 18pt arial;
+        }
+        input {
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+        div#res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+
+
+    <h1>Somando valores:</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="res">Resultado</div>
+
+    
+    <script>
+        function calcular(){
+            var txtv = window.document.querySelector('input#txtvel')
+            var vel = Number(txtv.value)
+            var res = window.document.querySelector('div#res')
+            res.innerHTML = `<p>Sua velocidadde atual é de <strong>${vel} Km/h</strong></p>`
+                if(vel > 60){
+                    res.innerHTML += `Você está <strong>MULTADO</strong> por excesso de velocidade</p`
+                }
+            res.innerHTML += `<p>Dirija com atenção e use sempre o cinto de segurança!`
+        }
+
+        function somar(){
+            var tn1 = window.document.getElementById('txtn1') // funciona também com "querySelector('input#txtn2')"
+            var tn2 = window.document.querySelector('input#txtn2') // inverso do exemplo de cima, lembrando que a chamada para o ID é # e a chamada para a CLASSE é "."
+            var res = window.document.getElementById('res')
+            // os valores digitados dentro do INPUT são do tipo STRING
+            var n1 = Number(tn1.value) // convertendo os valores de STRING para NUMERO
+            var n2 = Number(tn2.value) // convertendo os valores de STRING para NUMERO
+            var s = n1 + n2
+            res.innerHTML = `O resultado da soma entre ${n1} e ${n2} é: <strong>${s}</stong>`
+        }
+    </script>
+
+</body>
+</html>

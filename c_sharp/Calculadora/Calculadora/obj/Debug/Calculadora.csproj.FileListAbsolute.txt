@@ -1,0 +1,8 @@
+C:\Users\Lázaro\Desktop\CSharp\Calculadora_Sys4Soft\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\Lázaro\Desktop\CSharp\Calculadora_Sys4Soft\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\Lázaro\Desktop\CSharp\Calculadora_Sys4Soft\Calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\Lázaro\Desktop\CSharp\Calculadora_Sys4Soft\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\Lázaro\Desktop\CSharp\Calculadora_Sys4Soft\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\Lázaro\Desktop\CSharp\Calculadora_Sys4Soft\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Lázaro\Desktop\CSharp\Calculadora_Sys4Soft\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Lázaro\Desktop\CSharp\Calculadora_Sys4Soft\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
